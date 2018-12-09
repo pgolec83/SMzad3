@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		844C4A6721BDAA0000A34F96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C4A6621BDAA0000A34F96 /* main.m */; };
+		844C4A6F21BDAB4D00A34F96 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C4A6E21BDAB4D00A34F96 /* Data.m */; };
+		844C4A7221BDAB7F00A34F96 /* Klasa.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C4A7121BDAB7F00A34F96 /* Klasa.m */; };
+		844C4A7521BDABA200A34F96 /* Osoba.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C4A7421BDABA200A34F96 /* Osoba.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		844C4A6321BDAA0000A34F96 /* zad3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zad3; sourceTree = BUILT_PRODUCTS_DIR; };
 		844C4A6621BDAA0000A34F96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844C4A6D21BDAB3700A34F96 /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		844C4A6E21BDAB4D00A34F96 /* Data.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		844C4A7021BDAB7500A34F96 /* Klasa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Klasa.h; sourceTree = "<group>"; };
+		844C4A7121BDAB7F00A34F96 /* Klasa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Klasa.m; sourceTree = "<group>"; };
+		844C4A7321BDAB9400A34F96 /* Osoba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Osoba.h; sourceTree = "<group>"; };
+		844C4A7421BDABA200A34F96 /* Osoba.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Osoba.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				844C4A6621BDAA0000A34F96 /* main.m */,
+				844C4A6D21BDAB3700A34F96 /* Data.h */,
+				844C4A6E21BDAB4D00A34F96 /* Data.m */,
+				844C4A7021BDAB7500A34F96 /* Klasa.h */,
+				844C4A7121BDAB7F00A34F96 /* Klasa.m */,
+				844C4A7321BDAB9400A34F96 /* Osoba.h */,
+				844C4A7421BDABA200A34F96 /* Osoba.m */,
 			);
 			path = zad3;
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844C4A7221BDAB7F00A34F96 /* Klasa.m in Sources */,
 				844C4A6721BDAA0000A34F96 /* main.m in Sources */,
+				844C4A7521BDABA200A34F96 /* Osoba.m in Sources */,
+				844C4A6F21BDAB4D00A34F96 /* Data.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
