@@ -21,7 +21,7 @@
 }
 
 - (void)WypiszOsobe{
-    NSLog(@"Osoba: %@ %@, adres: %@, %@, woj. %@, urodzony: %@", imie, nazwisko, adres, miasto, wojewodztwo, dataUrodzenia);
+    NSLog(@"Osoba: %@ %@, adres: %@, %@, woj. %@, urodzony: %i, %@, %i", imie, nazwisko, adres, miasto, wojewodztwo, dataUrodzenia.dzien, dataUrodzenia.miesiac, dataUrodzenia.rok);
 }
 
 @end
